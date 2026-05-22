@@ -1,1 +1,34 @@
 Hello, Welcome to GitHub
+mkdir gitProject --> it will create a new directory 
+ls -->List command
+ls -a(Linux) and ls -force(Windows)  --> it will show the hidden file in the folder
+ls .git ---> will show all files inside created repo
+touch names.txt --> it will create file using touch command(Linux)
+git status -->it will show the status of the file
+New-Item names.txt --> create new file(Window)
+rm -rf .DS_Store --> it will removee te seletec file
+git add .  ----> all currect directory file/folder will take to on stage/commit 
+git add name.txt  -->only specified file
+git rm --cached <file>  --> to unstage the file
+git commit -m "names.txt file added" --> it will commit our unstage file
+ vi names.txt --> it will open the file to make the changes
+
+| Action            | Command |
+| ----------------- | ------- |
+| Save & exit       | `:wq`   |
+| Exit without save | `:q!`   |
+| Save only         | `:w`    |
+
+cat fileName --> it will display what ever in the file
+git log --> to check the commit status
+git status -->check staged or unstaged file
+git reset [commit code] ---->revert back to the commit code it will delete all commits after this commit..
+git restore [file name] --> it will restore the changes
+
+git stash ---> it will store in a index directory
+git stash pop  ---> it will restore the stash
+
+
+===============================GITHUB=========================================================
+git remote add origin https://github.com/PR40142148/My_Practice_Project.git --> connect the project to CLI
+
