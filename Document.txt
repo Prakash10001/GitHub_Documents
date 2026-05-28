@@ -31,4 +31,28 @@ git stash pop  ---> it will restore the stash
 
 ===============================GITHUB=========================================================
 git remote add origin https://github.com/PR40142148/My_Practice_Project.git --> connect the project to CLI
+git checkout -b main --->it will create new branch i.e main
+git remote -v  --> show git hub details on the url(push, fetch)
+git push origin master  -->
+git remote add upstream http://......   --> it will show both my url and upstream url.
+git push origin repo -f ---> force push code
+git fetch --all --prune --> will fetch all the commits to my own branch from upstrea
+git reset --hard upstream/main  --> will take the code from feature branch
+git pull upStream main --> It will take pull from upstream main
+==========================Intermidiate=====================
+git checkout feature/heloo
+touch 1
+git add .; git commit -m "1"  -->
 
+git rebase -i [commid address=34343493493498438]  --> interactive mode 
+pick and squash  ----> pick mean u r taking i want this commit and squash mean it will merge which ever i have my currect pick commit which is going to merge
+e
+ex:- pick d3434r
+ 	 s eijdfjfd
+ 	 
+:x ===> come back
+git reset --hard [cmmit address =349349438jskjk34934] ---> it will remove all commited which i make a single shot commit
+
+
+
+Merge Conflict=====================
